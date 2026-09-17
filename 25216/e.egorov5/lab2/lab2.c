@@ -16,8 +16,6 @@ int main() {
 
     tzset();
 
-    (void)time(&now);
-
     printf("%s", ctime(&now));
 
     sp = localtime(&now);
