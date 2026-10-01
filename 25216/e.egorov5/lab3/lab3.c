@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        printf("Не указан путь к файлу %s\n", argv[0]);
+        printf("Не указан .txt файл для проверки файла на права доступа %s\n", argv[0]);
         return 1;
     }
 
